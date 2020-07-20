@@ -16,7 +16,7 @@ def hasArrayTwoCandidates(A, arr_size, sum):
             l += 1
         #if sum of lower bound elements and upper bound elements greater than required sum then decrease upper bound index by 1
         else: 
-            r -= 1
+            r = r-1
     return 0
        
 n,s=map(int,input().split()) #taking  input array size and sum
