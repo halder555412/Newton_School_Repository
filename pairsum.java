@@ -1,6 +1,6 @@
 #You are given an array A of size N, and you are also given a sum. 
 #You need to find if two numbers in A exists such that their sum is equal to the given sum. 
-#If yes, print 1, else print 0.
+#If No, print 0, else print.
 
 import java.util.Scanner;
 import java.util.Map.Entry;
