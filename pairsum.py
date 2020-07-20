@@ -13,7 +13,7 @@ def hasArrayTwoCandidates(A, arr_size, sum):
             return 1
         #if sum of lower bound elements and upper bound elements less than the required sum then increase lower bound index by 1
         elif (A[l] + A[r] < sum): 
-            l += 1
+            l =l+ 1
         #if sum of lower bound elements and upper bound elements greater than required sum then decrease upper bound index by 1
         else: 
             r -= 1
