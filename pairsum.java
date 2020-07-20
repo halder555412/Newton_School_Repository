@@ -2,7 +2,7 @@
 #You need to find if two numbers in A exists such that their sum is equal to the given sum. 
 #If yes, print 1, else print 0.
 
-import java.util.*;
+import java.util.Scanner;
 import java.util.Map.Entry;
 class Main
 {
