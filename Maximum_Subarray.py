@@ -9,7 +9,7 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 Example:2
 
-Input: [-2,-1,-3,-4,-1,-2,-1,-5,-4]
+Input: [-2,-1,-3,-4,-1,-2,-1,-6,-4]
 Output: -1
 Explanation: [-1] has the largest sum = -1.
 
