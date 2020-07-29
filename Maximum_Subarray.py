@@ -9,7 +9,7 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 Example:2
 
-Input: [-2,-1,-3,-4,-1,-2,-1,-6,-4]
+Input: [-2,-1,-3,-4,-1,-2,-1,-5,-4]
 Output: -1
 Explanation: [-1] has the largest sum = -1.
 
@@ -25,17 +25,17 @@ class Solution:
         Negetive_check=0
     	# [-3,-4,-5,-7,-1,-10]
     	# output:-1 because -1 is maximum element
-        for i in nums:
-            if i>0:
+        for element in nums:
+            if element>0:
                 Negetive_check=1
                 break
             else:
                 continue
         if Negetive_check==0:
             return max(nums)
-        for i in nums:
+        for element in nums:
         	#Pick a element from the arr and add it with the max_next and check max_next  is greater than max_ or not.
-            max_next=max_next+i
+            max_next=max_next+element
             #If max_next>max_ then update max_=max_next 
             if max_next>max_:
                 max_=max_next
